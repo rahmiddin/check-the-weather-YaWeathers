@@ -2,7 +2,6 @@ import os
 import requests
 from geopandas.tools import geocode
 from dotenv import load_dotenv
-from pprint import pprint
 
 load_dotenv()
 

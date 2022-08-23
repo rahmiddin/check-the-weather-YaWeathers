@@ -1,7 +1,5 @@
-import json
 import os
 from YaWeathers import YaWeather
-from json import loads
 
 
 def write_weather():
@@ -15,4 +13,4 @@ def write_weather():
 
 
 if __name__ == '__main__':
-    print(write_weather())
+    write_weather()
